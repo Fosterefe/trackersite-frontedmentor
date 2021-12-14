@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+#btn {
+    position: absolute;
+    flex-direction: column;
+    border: none;
+    right: 1rem;
+    display: none;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    margin-right: 50px;
+    color: $veryDarkBlue;
+    font-family: $condensed;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.links li a:hover {
+    border-bottom: 1.5px solid hsl(230, 29%, 20%);
+}

@@ -1,0 +1,132 @@
+@media screen and (max-width: 410px) {
+    .nav {
+        flex-direction: column;
+    }
+    
+    .wrapper {
+        padding: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 40px 30px;
+    }
+
+    #btn {
+        display: flex;
+        top: 8%;
+        width: 40px;
+        height: 30px;
+        background: $lightGrayBlue;
+    }
+
+    #btn img {
+        width: 100%;
+    }
+
+    .links {
+        display: none;
+        width: 90%;
+        border-radius: 5px;
+        height: 280px;
+        align-items: center;
+        margin-top: 55px;
+        margin-left: -8px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: white;
+        position: absolute;
+    }
+
+    .links ul {
+        width: 100%;
+        flex-direction: column;
+        height: 200px;
+        padding: 15px;
+    }
+
+    .links ul li {
+        text-align: center;
+        width: 100%;
+    }
+
+    .links ul li a {
+        font-size: 18px;
+        width: 50%;
+        margin-left: 50px;
+    }
+
+    .log {
+        width: 10px;
+        padding-top: 15px;
+        border-top: 3px solid hsl(207, 33%, 95%);
+    }
+
+    .links.active {
+        display: flex;
+    }
+
+    .form {
+        width: 50%;
+        height: 90vh;
+        z-index: -10;
+    }
+
+    .contetn {
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin-top: 0px;
+        overflow:hidden;
+        margin-top: 25px;
+        z-index: -1;
+        position: relative;
+    }
+
+    .left {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .left h3 {
+        font-size: 12px;
+    }
+
+    .left h3 span {
+        font-size: 11px;
+    }
+
+    .left h1 {
+        font-size: 32px;
+        margin-bottom: 19px;
+    }
+
+    .left p {
+        font-size: 14px;
+    }
+
+    .left .btns {
+        margin-bottom: 100px;
+    }
+
+    .left .btns button {
+        padding: 15px 15px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .left .btns p {
+        top: 31%;
+        right: 27%;
+        font-size: 12px;
+    }
+
+    .right {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 90px;
+    }
+
+    .right img {
+        width: 138%;
+        height: auto;
+    }
+
+}

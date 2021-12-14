@@ -1,0 +1,104 @@
+@import './variables';
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $barlow;
+}
+
+@import './nav';
+
+.form {
+    width: 700px;
+    height: 55vh;
+    position: absolute;
+    background-color: $lightGrayBlue;
+    top: 0%;
+    right: 0%;
+    z-index: -1;
+    border-bottom-left-radius: 70px;
+}
+
+.contetn {
+    width: 100%;
+    display: flex;
+    padding: 4px 100px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.left {
+    width: 50%;
+}
+
+.left h3 {
+    font-family: $condensed;
+    font-size: 14px;
+    color: $grayBlue;
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.left h3 span {
+    font-size: 14.5px;
+    padding: 4px 8px; 
+    color: white;
+    background-color: $veryDarkBlue;
+    border-radius: 50px;
+}
+
+.left h1 {
+    font-size: 38px;
+    color: $veryDarkBlue;
+    margin-bottom: 30px;
+}
+
+.left p {
+    max-width: 230px;
+    font-size: 14px;
+    color: $verygrayBlue;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.left .btns {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+
+.left button {
+    padding: 15px 13px;
+    border-radius: 6px;
+    border: none;
+    background-color: $red;
+    color: white;
+    cursor: pointer;
+}
+
+.left .btns p {
+    text-align: center;
+    position: absolute;
+    top: 31%;
+    right: 44%;
+    font-size: 13px;
+    font-weight: 400;
+    color: $grayBlue;
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    width: 150%;
+    height: 350px;
+    transform: translateX(0px);
+}
+
+@import './responsive'
